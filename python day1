@@ -1,0 +1,110 @@
+# Python-MTA
+python for MTA
+Python 3.7.8 (tags/v3.7.8:4b47a5b6ba, Jun 28 2020, 08:53:46) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 2+3
+5
+>>> #Interactive Mode
+>>> # --> used for comments
+>>> #''' --->multiline comments
+>>> print("hello everyone hope you are following")
+hello everyone hope you are following
+>>> print('hello')
+hello
+>>> print('''hello''')
+hello
+>>> 'hello'
+'hello'
+>>>  2+5
+ 
+SyntaxError: unexpected indent
+>>> a = 25
+>>> type(a)#a is an object of integer class
+<class 'int'>
+>>> a = int(35)
+>>> a
+35
+>>> _ = 25
+>>> _
+25
+>>> _ = 'saketh'
+>>> _
+'saketh'
+>>> help('keywords')
+
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+False               class               from                or
+None                continue            global              pass
+True                def                 if                  raise
+and                 del                 import              return
+as                  elif                in                  try
+assert              else                is                  while
+async               except              lambda              with
+await               finally             nonlocal            yield
+break               for                 not                 
+
+>>> Saketh = 25
+>>> Saketh
+25
+>>> False = 25
+SyntaxError: can't assign to keyword
+>>> false =25
+>>> _False =25
+>>> 15 = 25
+SyntaxError: can't assign to literal
+>>> #Datatypes
+>>> #Basic types -Numeric (int,float,complex),boolean
+>>> 25
+25
+>>> 2.5
+2.5
+>>> 2+3j
+(2+3j)
+>>> a = int(25)
+>>> a
+25
+>>> a = int(2.5)
+>>> a
+2
+>>> type(a)
+<class 'int'>
+>>> a = int('saketh')
+Traceback (most recent call last):
+  File "<pyshell#35>", line 1, in <module>
+    a = int('saketh')
+ValueError: invalid literal for int() with base 10: 'saketh'
+>>> a = int('25')
+>>> type(a)
+<class 'int'>
+>>> a = '25;
+SyntaxError: EOL while scanning string literal
+>>> a = '35'
+>>> type(a)
+<class 'str'>
+>>> float(25)
+25.0
+>>> float(2.65)
+2.65
+>>> float('codegnan')
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    float('codegnan')
+ValueError: could not convert string to float: 'codegnan'
+>>> float('52')
+52.0
+>>> float(-2.5)
+-2.5
+>>> str(25)
+'25'
+>>> str(2.5)
+'2.5'
+>>> complex(25)
+(25+0j)
+>>> str(' ')
+' '
+>>> type(25)
+<class 'int'>
+>>> type('25')
+<class 'str'>
+>>> bool(
